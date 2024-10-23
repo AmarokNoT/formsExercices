@@ -20,16 +20,39 @@ body {
 
 form {
   margin-top: 50px;
+  height: 400px;
+  width: 450px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   gap: 20px;
   padding: 20px;
   border-radius: 41px;
   background: #f1cfe4;
-  box-shadow: 8px 8px 19px #806e79, -8px -8px 19px #ffffff;
+  box-shadow: inset 29px 29px 58px #b097a6, inset -29px -29px 58px #ffffff;
+}
+
+.case {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 label {
   margin-right: 10px;
+}
+
+.msg {
+  display: none;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btn .button {
+  padding: 10px;
 }
