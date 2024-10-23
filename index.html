@@ -4,33 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Form Validation</title>
 </head>
 <body>
     <div class="container">
-        <form>
-            <div class="nom case">
+        <form id="form">
+            <div class="case">
                 <label for="name">Username</label>
-                <input type="text" id="name" placeholder="name...">
-                <p class="msg hidden">Must be at least 5 characters</p>
+                <input type="text" id="name" placeholder="Enter your username...">
+                <p class="msg"></p>
             </div>
-            <div class="mail case">
+            <div class="case">
                 <label for="email">Email</label>
-                <input type="mail" id="email" placeholder="email...">
-                <p class="msg hidden">Must be at least 5 characters</p>
+                <input type="text" id="email" placeholder="Enter your email...">
+                <p class="msg"></p>
             </div>
-            <div class="password case">
+            <div class="case">
                 <label for="password">Password</label>
-                <input type="password" name="" id="password" placeholder="**********">
-                <p class="msg hidden">Must be at least 5 characters</p>
+                <input type="password" id="password" placeholder="Enter your password...">
+                <p class="msg"></p>
             </div>
-            <div class="confirmPassword case">
+            <div class="case">
                 <label for="confirmPassword">Confirm Password</label>
-                <input type="password" id="confirmPassword" placeholder="**********">
-                <p class="msg hidden">Must be at least 5 characters</p>
+                <input type="password" id="confirmPassword" placeholder="Confirm your password...">
+                <p class="msg"></p>
             </div>
             <div class="btn">
-                <input class = "button" type="button" value="Submit">
+                <input class="button" type="submit" value="Submit">
             </div>
         </form>
     </div>
